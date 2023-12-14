@@ -1,0 +1,41 @@
+.tlist {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem;
+  flex: auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.573)),
+    url('../../../public/back.svg') no-repeat center center / cover;
+  gap: 1rem;
+  overflow-y: auto;
+}
+
+.tlist h3 {
+  color: white !important;
+}
+
+.t {
+  color: white !important;
+  padding: 2rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.undone {
+  background-color: rgba(128, 128, 128, 0.37);
+}
+.done {
+  background-color: rgba(0, 128, 0, 0.493);
+}
+
+.t-actions {
+  display: flex;
+  gap: 1rem;
+}
+.t-actions input {
+  height: 20px;
+  padding: 1rem;
+}

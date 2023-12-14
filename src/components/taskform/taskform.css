@@ -1,0 +1,25 @@
+.tform {
+  display: flex;
+  flex-direction: column;
+  border: solid var(--border) 1px;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem;
+}
+
+.tform input {
+  font-size: 1.5rem;
+  padding: 0.3rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border: solid black 1px;
+}
+
+.tform button {
+  padding: 0.8rem;
+  border-radius: 10px;
+  border: none;
+  background-color: orangered;
+  color: white;
+}
