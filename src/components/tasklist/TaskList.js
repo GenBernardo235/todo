@@ -22,7 +22,7 @@ function Task({ task, handleUpdate, handleDelete }) {
   const [currentTask, setTask] = useState(task);
   useEffect(() => {
     handleUpdate(currentTask.id, currentTask);
-  }, [currentTask,handleUpdate]);
+  }, [currentTask]);
   return (
     <div className={currentTask.done ? 't done' : 't undone'}>
       <p>{currentTask.text}</p>
